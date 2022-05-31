@@ -1,0 +1,59 @@
+.box{
+      
+    width: 250px;
+    height: 250px;
+    margin-left: 500px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 14px ;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+ }
+ .box img {
+    width: 70%;
+    transition: all 400ms;
+ }
+ .box h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ .increment{
+    font-size: 60%;
+    position: relative;
+    top: 20vh;
+    margin-right: 5px;
+    background-color: #f26e11;
+    border-radius: 8%;
+    color: white;
+    width: 200px;
+    height: 150px;
+    border-color: white;
+}
+
+.decrement{
+    font-size: 60%;
+    position: relative;
+    top: 20vh;
+    margin-left: 5px;
+    background-color: #f26e11;
+    border-radius: 8%;
+    color: white;
+    width: 200px;
+    height: 150px;
+    border-color: white;
+}
+
+.cnt-buttons{
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ctn-fbuttons{
+    position: absolute;
+    font-size: 90px;
+}
